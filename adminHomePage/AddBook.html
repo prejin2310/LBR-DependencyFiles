@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    
+</head>
+<body>
+    <div class="container">
+        <h2>Add new Book</h2>
+        <form action="/book/addBook" method="POST">
+
+            <label for="name">Title</label>
+            <input type="text" id="name" name="title" required>
+            
+             <label for="name">Author</label>
+            <input type="text" id="author" name="author" required>
+            
+             <label for="name">Genre</label>
+            <input type="text" id="genre" name="genre" required>
+            
+            <label for="name">Status</label>
+            
+            <select id="available" name="avaialablity">
+				<option value="Available">Available</option>
+            <option value="Unavailable">Unavailable</option>
+			</select>
+            
+            
+            <input type="submit" value="Add new Book">
+
+        </form>
+    </div>
+</body>
+</html>
