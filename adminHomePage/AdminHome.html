@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Library Dashboard</title>
+    <link rel="stylesheet" href="">
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">Library Management System</div>
+        <button class="logout-btn">Logout</button>
+    </div>
+    <div class="content">
+        <h2>Welcome Admin</h2>
+        <div class="buttons">
+            <a class="add-book" href="/add">Add New Book</a>
+            <a class="view-books">View All Books</a>
+            <a class="view-issued">View Issued Book Details</a>
+        </div>
+        <div class="pending-approval">
+            <h2>Pending for Approval List</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Request ID</th>
+                        <th>Book ID</th>
+                        <th>Book Name</th>
+                        <th>User Name</th>
+                        <th>Remarks</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Table rows will go here -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
