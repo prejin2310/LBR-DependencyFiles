@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+.navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar .logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+.navbar .logout-btn {
+    background-color: #ff4d4d;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+.content {
+    padding: 80px 20px 20px; /* Adjusted padding for fixed navbar */
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.content h2 {
+    margin-top: 0;
+}
+.buttons {
+    
+    display: flex;
+    gap: 10px;
+    margin: 20px 0;
+}
+.buttons a {
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    color: white;
+    font-size: 14px;
+    flex: 1;
+}
+.buttons .add-book {
+    background-color: #3498db;
+}
+.buttons .view-books {
+    background-color: #2ecc71;
+}
+.buttons .view-issued {
+    background-color: #f39c12;
+}
+.pending-approval {
+    margin-top: 40px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+table, th, td {
+    border: 1px solid #ddd;
+}
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+th {
+    background-color: #34495e;
+    color: white;
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+tr:hover {
+    background-color: #ddd;
+}
+.action-button {
+    padding: 5px 10px;
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
